@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./components/index.css";
 import Navbar from './components/Navegador/Navbar';
 import MovieDetails from './components/MovieDetails/MovieDetails';
-import Home from './components/Home';
+import Home from './Paginas/Home';
+import Login from './Paginas/Login';
 
 
 
@@ -16,12 +17,13 @@ const App = () => {
 			<BrowserRouter>
 				<div className = "App">
 					<Navbar/>
-					<Switch>
-						<Route exact path = '/' component = { Home } />
-						<Route exact path ="/movies/:movieId"><MovieDetails/></Route>
+						<Switch>
+							<Route exact path = '/'> <Home/> </Route>
+							<Route exact path ="/movies/:movieId"><MovieDetails/></Route>
+							<Route exact path = "/components/Login"> <Login/> </Route>
 						
 						
-					</Switch>
+						</Switch>
 				</div>
 			</BrowserRouter>
 		</div>

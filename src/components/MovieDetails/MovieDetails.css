@@ -1,0 +1,32 @@
+.detailsContainer {
+	display: flex;
+	position: absolute;
+	top: 150px;
+	margin: auto;
+
+}
+.col {
+	max-width: 400px;
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
+	color: #ffff;
+}
+.cartel{
+	max-width: 250px;
+	margin: 10px;
+	border-radius: 10px;
+	border: 0.2rem solid #fff;
+  	border-radius: 2rem;
+  	padding: 20px;
+  	 box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #fe137d,
+              0 0 0.8rem #fe137d,
+              0 0 2.8rem #fe137d,
+              inset 0 0 1.3rem #fe137d;
+}
+.Alquilar{
+	position: absolute;
+	
+}

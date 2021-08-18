@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import MoviesGrid from '../MoviesGrid/MoviesGrid';
+import Login from '../../Paginas/Login';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -22,8 +23,8 @@ const Navbar = () => {
 					</NavLink>
 					<nav className ="nav">
 						<ul className= "menu">
-							<li className ="menu__item"><NavLink to = "/" className = "menu__Link"> Log in </NavLink></li>
-							<li className ="menu__item"><NavLink to = "/" className = "menu__Link"> Mis datos </NavLink></li>
+							<li className ="menu__item"><NavLink to = "/components/Login" className = "menu__Link"> Log in </NavLink></li>
+							<li className ="menu__item"><NavLink to = "/components/Misdatos" className = "menu__Link"> Mis datos </NavLink></li>
 						</ul>
 					</nav>
 					<div className = "Buscador">
@@ -31,7 +32,7 @@ const Navbar = () => {
 						
 				</div>
 			</header>	
-			<MoviesGrid/>
+			
 		</div>
 	);
 
