@@ -1,20 +1,23 @@
 .detailsContainer {
+	position: relative;
 	display: flex;
-	position: absolute;
-	top: 150px;
-	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40px;
+	
 
 }
 .col {
 	max-width: 400px;
 	justify-content: center;
-	padding: 10px;
+	padding: 40px;
 	margin: 20px;
 	color: #ffff;
 }
 .cartel{
 	max-width: 250px;
 	margin: 10px;
+	margin-left: -15px;
 	border-radius: 10px;
 	border: 0.2rem solid #fff;
   	border-radius: 2rem;
@@ -26,7 +29,55 @@
               0 0 2.8rem #fe137d,
               inset 0 0 1.3rem #fe137d;
 }
-.Alquilar{
+.botones{
 	position: absolute;
+	display: block;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 11%;
+	justify-content: space-between;
+
 	
+}
+
+
+.Alquilar{
+	
+	margin-right: 40px;
+	background-color: transparent;
+	width: 90px;
+	height: 60px;
+	border-radius: 12px;
+	box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 1rem #00cbe6,
+              0 0 0.8rem #00cbe6,
+              0 0 .1rem #00cbe6,
+              inset 0 0 .3rem #00cbe6;
+}
+.Megusta{
+	
+	
+	background-color: transparent;
+	width: 90px;
+	height: 60px;
+	border-radius: 12px;	
+	box-shadow: 0 0 .1rem #fff,
+              0 0 .1rem #fff,
+              0 0 1rem #00cbe6,
+              0 0 0.8rem #00cbe6,
+              0 0 .1rem #00cbe6,
+              inset 0 0 .3rem #00cbe6;
+}
+.botones img{
+	filter: brightness(1.5);
+}
+
+
+.Recomendados{
+	position: relative;
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+
 }

@@ -1,9 +1,34 @@
 import React from 'react';
 import Navbar from '../Navegador/Navbar';
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import httpClient from '../../utils/httpClient';
 import movie from '../../Paginas/movie.json';
 import styles from './MovieDetails.css';
+import cart from '../assets/cart.png';
+import heart from '../assets/heart.png';
+import Spinner from '../Spinner/Spinner';
 
 const MovieDetails =() => {
+	const { movieId } = useParams();
+	const [isLoading, setIsLoading] = useState (true); 
+	const [movie, setMovie ] = useState(null);
+
+	useEffect(() => {
+		setIsLoading(true);
+		httpClient("/movie/ " + movieId).then(data => {
+			setIsLoading(false);
+			setMovie(data);
+		})
+
+	}, [movieId]);
+	if (isLoading) {
+		return( <Spinner/> );
+	}
+	if (!movie) {
+		return null;
+	}
+
 	const imageUrl ="https://image.tmdb.org/t/p/w500" + movie.poster_path;{
 		return (
 			<div>
@@ -22,8 +47,15 @@ const MovieDetails =() => {
 						</div> 
 						
 				</div>
-				<button className = " Alquilar "></button>
-				<button></button>
+				<div className ="botones">
+					<button className = " Alquilar "><img src = { cart }/> </button>
+					<button className = "Megusta"> <img src = { heart }/></button>
+				</div>
+
+
+				<div className ="Recomendados">
+				Recomendados
+				</div>
 			</div>
 		);
 	}

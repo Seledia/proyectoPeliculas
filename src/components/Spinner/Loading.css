@@ -1,0 +1,12 @@
+.contenedorload{
+	position: absolute;
+	margin-left: 45%;
+	display: flex;
+	justify content: center;
+}
+.loading{
+	height: 50px;
+	text-shadow: 0 0 50px #00cbe6;
+
+
+}

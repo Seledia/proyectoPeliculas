@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 const MovieCard = ({ movie }) => {
 	const imageUrl ="https://image.tmdb.org/t/p/w300" + movie.poster_path;{
 		return(
-			<NavLink to = {"/movies/" + movie.id}>
+			<NavLink to = {"/movie/" + movie.id}>
 				<li className="MovieDisplay">
 					<img src ={ imageUrl } alt= { movie.title } className="movieCard" width= {230}
 					height={345}/>

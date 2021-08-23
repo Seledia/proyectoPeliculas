@@ -19,7 +19,7 @@ const App = () => {
 					<Navbar/>
 						<Switch>
 							<Route exact path = '/'> <Home/> </Route>
-							<Route exact path ="/movies/:movieId"><MovieDetails/></Route>
+							<Route exact path ="/movie/:movieId"><MovieDetails/></Route>
 							<Route exact path = "/components/Login"> <Login/> </Route>
 						
 						

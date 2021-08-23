@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import MoviesGrid from '../MoviesGrid/MoviesGrid';
 import Login from '../../Paginas/Login';
 import "./Navbar.css";
+import Search from '../Search/Search';
 
 const Navbar = () => {
 	return (
@@ -28,6 +29,7 @@ const Navbar = () => {
 						</ul>
 					</nav>
 					<div className = "Buscador">
+						<Search/>
 					</div>
 						
 				</div>
