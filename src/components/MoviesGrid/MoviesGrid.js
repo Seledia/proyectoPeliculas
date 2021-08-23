@@ -7,6 +7,8 @@ import MovieCard from "../MovieCard/MovieCard";
 import Grid from "./Grid.css"
 
 const MoviesGrid = () => {
+	/*const query = useQuery();
+	const search = query.get("search");*/
 	
 	const[movie, setMovie] = useState([]);
 	
