@@ -9,10 +9,13 @@ import cart from '../assets/cart.png';
 import heart from '../assets/heart.png';
 import Spinner from '../Spinner/Spinner';
 
+
 const MovieDetails =() => {
 	const { movieId } = useParams();
 	const [isLoading, setIsLoading] = useState (true); 
 	const [movie, setMovie ] = useState(null);
+
+
 
 	useEffect(() => {
 		setIsLoading(true);
