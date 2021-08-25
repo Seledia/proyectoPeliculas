@@ -1,0 +1,114 @@
+.contenedor2{
+	position: absolute;
+  top: 330px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-align: center;
+  border-width: 3px;
+  border-color: rgb(0,0,0);
+box-sizing: border-box;
+font-weight: bold;
+
+width: 40%;
+margin: auto;
+}
+
+.contenedor2 .input_field {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.contenedor2 .input_field .label {
+  width:  50%;
+  margin-right: 10px;
+}
+
+.label {
+  width: 50%;
+}
+.label_pequeño {
+  width: 25%;
+  text-align: right;
+}
+.label_grande {
+  width: 75%;
+}
+  #cajaformulario {
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+text-align: center;
+box-sizing: border-box;
+font-weight: bold;
+background-color: rgba(0,0,0,0.6);
+width: 40%;
+margin: auto;
+padding: 30px;
+  }
+  .contenedor_formulario {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  border:2px;
+  padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+.boton_form {
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px ;
+    display:inline-block;
+    color: #FFF;
+    background: #000000; 
+    padding: 6px 30px;
+    white-space: nowrap;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.boton_form:hover {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.morado{
+    background: #7abcff;
+    border: 1px solid #1488FF; 
+}
+
+.morado:hover{
+    background: #ADD5FF;
+}
+
+.contenedor2 .input_field .caja_gris{
+    margin: 0 0 5px;
+    overflow: hidden;
+  width: 90%;
+    padding: 8px 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #6E6E6E;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formulario{
+    width: 80%;
+    margin:0 auto ;
+    padding: 20px;
+    text-align: justify
+        }
+

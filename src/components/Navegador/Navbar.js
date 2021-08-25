@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import MoviesGrid from '../MoviesGrid/MoviesGrid';
-import Login from '../../Paginas/Login';
+import Login from '../../Paginas/Login/Login.js';
 import "./Navbar.css";
 import Search from '../Search/Search';
 
@@ -24,8 +24,9 @@ const Navbar = () => {
 					</NavLink>
 					<nav className ="nav">
 						<ul className= "menu">
-							<li className ="menu__item"><NavLink to = "/components/Login" className = "menu__Link"> Log in </NavLink></li>
-							<li className ="menu__item"><NavLink to = "/components/Misdatos" className = "menu__Link"> Mis datos </NavLink></li>
+							<li className ="menu__item"><NavLink to = "/components/Login/Login" className = "menu__Link"> Log in </NavLink></li>
+							<li className ="menu__item"><NavLink to = "/components/Misdatos/MisDatos" className = "menu__Link"> Clientes </NavLink></li>
+							<li className ="menu__item"><NavLink to = "/components/Misdatos/MisDatos" className = "menu__Link"> Alquiler </NavLink></li>
 						</ul>
 					</nav>
 					<div className = "Buscador">

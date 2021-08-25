@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../Navegador/Navbar';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import httpClient from '../../utils/httpClient';
@@ -8,6 +7,7 @@ import styles from './MovieDetails.css';
 import cart from '../assets/cart.png';
 import heart from '../assets/heart.png';
 import Spinner from '../Spinner/Spinner';
+import Recomendados from '../Recomendados/Recomendados';
 
 
 const MovieDetails =() => {
@@ -57,7 +57,7 @@ const MovieDetails =() => {
 
 
 				<div className ="Recomendados">
-				Recomendados
+				<Recomendados/>
 				</div>
 			</div>
 		);

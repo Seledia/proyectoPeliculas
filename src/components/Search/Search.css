@@ -21,6 +21,9 @@
 
 
 }
+.buscadorinput:focus {
+	outline: none;
+}
 .searchbutton{
 	position: absolute;
 	background-color: transparent;
