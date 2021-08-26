@@ -1,0 +1,85 @@
+.busquedavanzada{
+	position: absolute;
+  top: 130px;
+  color: #fff;
+  text-align: center;
+  border-width: 3px;
+  border-color: rgb(0,0,0);
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+}
+.Busqueda_titulo{
+  color: #00cbe6;
+}
+.busquedavanzada .label_busqueda {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+
+}
+.busquedavanzada .label_busqueda .campo_input {
+
+  margin-right: 10px;
+
+
+}
+
+.campo_input {
+  width:  35px;
+  font-size:12px ;
+
+}
+
+.boton_form {
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    text-decoration: none;
+    font-size: 12px ;
+    display:inline-block;
+    color: #FFF;
+    background: #00cbe6; 
+    padding: 6px 30px;
+    white-space: nowrap;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-color: #ffff;
+    box-shadow: 0 0 5px #fff,
+              0 0 8px #fff,
+              0 0 5px #00cbe6,
+              0 0 5px #00cbe6,
+              0 0 10px #00cbe6,
+              inset 0 0 7px #00cbe6;
+}
+.boton_form:hover {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.busquedavanzada .label_busqueda .caja_gris{
+    margin: 0 0 5px;
+    overflow: hidden;
+    width: 45%;
+    padding: 8px 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #6E6E6E;
+    border-radius: 10px;
+    outline: none;
+}
+
+.formularioBusqueda{
+    width: 90%;
+    margin:0 auto ;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+
+ }
+

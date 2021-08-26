@@ -1,17 +1,23 @@
 .contenedor2{
 	position: absolute;
-  top: 330px;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  color: #fff;
-  text-align: center;
-  border-width: 3px;
-  border-color: rgb(0,0,0);
-box-sizing: border-box;
-font-weight: bold;
-
-width: 40%;
-margin: auto;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    text-align: center;
+    border-width: 3px;
+    border-color: rgb(0,0,0);
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #00cbe6,
+              0 0 0.8rem #fe137d,
+              0 0 2.8rem #00cbe6,
+              inset 0 0 1.3rem #3dbf87;
 }
 
 .contenedor2 .input_field {
@@ -27,13 +33,7 @@ margin: auto;
 .label {
   width: 50%;
 }
-.label_pequeño {
-  width: 25%;
-  text-align: right;
-}
-.label_grande {
-  width: 75%;
-}
+
   #cajaformulario {
 font-family: 'Open Sans', sans-serif;
 color: #fff;
@@ -103,6 +103,8 @@ padding: 30px;
     background-color: #F2F2F2;
     border: 1px solid #6E6E6E;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
+    border-radius: 8px;
 }
 
 .formulario{

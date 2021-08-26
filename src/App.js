@@ -6,6 +6,7 @@ import MovieDetails from './components/MovieDetails/MovieDetails';
 import Home from './Paginas/Home';
 import Login from './Paginas/Login/Login';
 import MisDatos from './Paginas/Misdatos/MisDatos';
+import Busqueda from './components/Busqueda/Busqueda';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
 							<Route exact path ="/movie/:movieId"><MovieDetails/></Route>
 							<Route exact path = "/components/Login/Login"> <Login/> </Route>
 							<Route exact path = "/components/Misdatos/MisDatos"> <MisDatos/> </Route>
+							<Route exact path = "/components/Busqueda/Busqueda"> <Busqueda/> </Route>
 						
 						
 						</Switch>
